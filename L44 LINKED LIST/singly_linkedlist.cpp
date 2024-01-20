@@ -27,7 +27,7 @@ void insertattail(Node * &tail,int d){
 void insertatposition(Node * &head,int position,int d){
     //FOR INSERTING ELEMENT IN STARTING POSITION
     if(position==1){
-        //we can use insert at head funcction
+        //we can use insert at head function
         Node *t1=new Node(d);
         t1->next =head;
         head=t1;

@@ -60,5 +60,5 @@ int search(int ar[],int n,int key){
 int main(){
 
     int ar[5]={9,1,2,3,4};
-    cout<<search(ar,7,9);
+    cout<<search(ar,5,9);
 }
