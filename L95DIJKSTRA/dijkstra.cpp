@@ -42,5 +42,4 @@ vector<int> dijkstra(vector<vector<int>> &vec, int vertices, int edges, int sour
         }
     }
     return dist;
-
 }

@@ -1,3 +1,5 @@
+//EMPTY CLASS HAS 1BYTE OF MEMORY FOR ITS IDENETIFICATION
+
 #include<iostream>
 #include "more.cpp" //another method for accessing class
 using namespace std;
@@ -10,7 +12,6 @@ class hero{
 class zero{
     //empty
 };
-
 
 int main(int argc, char const *argv[])
 {

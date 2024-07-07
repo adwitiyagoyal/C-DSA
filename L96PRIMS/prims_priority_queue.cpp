@@ -58,3 +58,5 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
 
     return res;
 }
+
+

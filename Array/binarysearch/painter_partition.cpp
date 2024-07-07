@@ -4,8 +4,6 @@ using namespace std;
 bool ispossible(int ar[],int n,int k,int mid){
 
     int pagesum=0;
-    int studentcount = 1;
-
     for(int i=0; i<n; i++){
 
         if(pagesum +  ar[i] <= mid){

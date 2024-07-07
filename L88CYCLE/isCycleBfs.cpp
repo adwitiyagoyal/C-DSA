@@ -17,17 +17,13 @@ bool iscycle(int i, unordered_map<int, bool> &visited, unordered_map<int, list<i
             if(visited[x]){
                 if(parent[front] != x){
                     return true;
-                }
+                }   
             }
              if(!visited[x]){
                 q.push(x);
                 parent[x] = front;
                 visited[x] = true;
-            }
-            
-           
-
-            
+            }    
         }
     }
     return false;
@@ -57,3 +53,4 @@ string cycleDetection (vector<vector<int>>& edges, int n, int m)
     }
     return "No";
 }
+

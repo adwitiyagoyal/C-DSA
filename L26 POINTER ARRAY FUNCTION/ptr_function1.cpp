@@ -21,8 +21,8 @@ int getsum1(int *ar,int n){  //if we write *ar in place of ar[] it is same
 int main(int argc, char const *argv[])
 {
     int ar[5]={1,2,3,4,5};
-    cout<<getsum(ar+3,2)<<endl;   taking sum after ar[2] size become 2
-    cout<<getsum1(ar,5)<<endl;
+    cout<<getsum(ar+3,2)<<endl;   //taking sum after ar[2] size become 2
+    // cout<<getsum1(ar,5)<<endl;
     return 0;
 }
 

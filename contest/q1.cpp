@@ -2,48 +2,28 @@
 #include<climits>
 using namespace std;
 
-void ans(int n,int ar[]){
-int s=0,e=n-1;
-int sre=0;
-int dema=0;
-int i=0;
-while(s<=e){
+void solve(int t,int n,int arr[n]){
+    int ans =0;
     
-    if(ar[e]<ar[s]){
-        
-        if(i%2==0){
-        sre=sre+ar[s];
-        s++;
-        }
-        else{
-            dema=dema+ar[e];
-            e--;
-        }
+    for(int i=0;i<n-1;i++){
+        ans = max(arr[i],arr[i+1]);
     }
-
-    else{
-        
-        if(i%2==0){
-        sre=sre+ar[s];
-        s++;
-        }
-        else{
-            dema=dema+ar[e];
-            e--;
-        }
-
-
-    }
-
-    i++;
-
+    cout<<ans-1<<endl;
 }
-cout<<sre<<"   "<<dema;
-
-}
-
-
 int main(){
-    int ar[4]={4,1,2,10};
-    ans(4,ar);
+    int t,n;
+    int a[n];
+    cin>>t;
+
+    for(int i=0;i<n;i++){
+    cin>>n;
+    
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    }
+
+
+
+    return 0;
 }
