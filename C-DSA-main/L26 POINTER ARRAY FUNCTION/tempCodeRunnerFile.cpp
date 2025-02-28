@@ -1,0 +1,1 @@
+ // cout<<getsum1(ar,5)<<endl;

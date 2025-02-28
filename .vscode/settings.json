@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "*.tcc": "cpp",
@@ -7,5 +8,13 @@
         "vector": "cpp",
         "array": "cpp",
         "string": "cpp"
+=======
+    "files.associations": {
+        "*.tcc": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "map": "cpp"
+>>>>>>> 16b477d (cp)
     }
 }
